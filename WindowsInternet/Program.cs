@@ -18,7 +18,8 @@ namespace WindowsInternet
 
         const int SW_HIDE = 0;
         const int SW_SHOW = 5;
-
+        const int TimeToWait = 10;
+        
         private static string[] _consoleStrings = { "Internet Status = false", "Using standart internet connection HTTP/HTTPS", "Internet security failed trying to secure the computer", "Connection=true", "Internet Status = true", "Exit" };
 
         private static string _fileName = "WindowsInternet.exe";
@@ -84,13 +85,13 @@ namespace WindowsInternet
 
                 return;
             }
-            time = DateTime.Now.AddMinutes(1);
+            time = DateTime.Now.AddMinutes(TimeToWait);
             new Thread(() => printInternetStrings()).Start();
             while (true)
             {
                 if (DateTime.Now > time)
                 {
-                    time.AddMinutes(1);
+                    time.AddMinutes(TimeToWait);
                     if (DateTime.Now >= GetTimeToWork() && DateTime.Now <= GetTimeToStop())
                     {
                         Console.WriteLine(GetTimeToWork());
