@@ -1,0 +1,8 @@
+F:\RiderProjects\WindowsInternet\WindowsInternet\bin\Debug\WindowsInternet.exe
+F:\RiderProjects\WindowsInternet\WindowsInternet\bin\Debug\WindowsInternet.pdb
+F:\RiderProjects\WindowsInternet\WindowsInternet\obj\Debug\WindowsInternet.csprojAssemblyReference.cache
+F:\RiderProjects\WindowsInternet\WindowsInternet\obj\Debug\WindowsInternet.csproj.CoreCompileInputs.cache
+F:\RiderProjects\WindowsInternet\WindowsInternet\obj\Debug\WindowsInternet.exe
+F:\RiderProjects\WindowsInternet\WindowsInternet\obj\Debug\WindowsInternet.pdb
+F:\RiderProjects\WindowsInternet\WindowsInternet\obj\Debug\WindowsInternet.Properties.Resource1.resources
+F:\RiderProjects\WindowsInternet\WindowsInternet\obj\Debug\WindowsInternet.csproj.GenerateResource.cache
